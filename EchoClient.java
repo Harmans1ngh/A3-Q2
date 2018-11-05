@@ -13,7 +13,7 @@ public class EchoClient
 	public static void main(String[] args) {
 		try {
 			/* make connection to server socket */
-			Socket sock = new Socket("127.0.0.1",6013);
+			Socket sock = new Socket("127.0.0.1",6016);
 
 			BufferedReader read = new BufferedReader(new InputStreamReader(sock.getInputStream()));
 			BufferedReader connection = new BufferedReader(new InputStreamReader(System.in));
